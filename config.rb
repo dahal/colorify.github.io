@@ -10,7 +10,6 @@ activate :livereload, :host => "colorize.dev"
 
 configure :development do
   activate :livereload
-  require "pry"
 end
 
 # A path which all have the same layout
@@ -47,6 +46,12 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true # default: false
+  deploy.branch = 'gh-pages'
 end
 
 # Directory
