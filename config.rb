@@ -10,6 +10,7 @@ activate :livereload, :host => "colorize.dev"
 
 configure :development do
   activate :livereload
+  require "pry"
 end
 
 # A path which all have the same layout

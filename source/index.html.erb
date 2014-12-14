@@ -1,4 +1,54 @@
 ---
 title: Color Picker
+row1: 21313E 20575F 268073 53A976 98CF6F EFEE69
+row2: 221D1A 423B35 655C54 8B7F74 B1A496 D9CBB9
+row3: 760A11 9E2C25 C25140 DD7961 EFA589 F2D4B8
+row4: 161F62 3E3E96 6B60C0 9B87DE CCB1EE F4E0EF
+row5: 1E2835 40394E 694963 965872 C26877 EA7E76
+row6: 3B180C 643515 8C561B AF7D1E CCA923 E0D831
+row7: 36201C 5E3C39 875A5D AF7C87 D3A1B5 F2CAE6
 ---
 
+
+<div class="row">
+  <% current_page.data.row1.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+
+<div class="row">
+  <% current_page.data.row2.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+<div class="row">
+  <% current_page.data.row3.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+<div class="row">
+  <% current_page.data.row4.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+<div class="row">
+  <% current_page.data.row5.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+<div class="row">
+  <% current_page.data.row6.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>
+
+<div class="row">
+  <% current_page.data.row7.split(' ').each do |hex| %>
+    <div class="click-to-copy col-xs-2" style="background-color:#<%= hex %>"  data-clipboard-text="#<%= hex %>"></div>
+  <% end %>
+</div>

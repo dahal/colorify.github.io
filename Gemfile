@@ -10,3 +10,5 @@ gem 'middleman-livereload', '~> 3.1.0'
 
 # Assets
 gem 'middleman-sprockets'
+
+gem 'pry'
