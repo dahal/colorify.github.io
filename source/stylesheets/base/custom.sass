@@ -1,0 +1,112 @@
+@import "bootstrap-variables"
+
+// CUSTOM BUTTONS
+// ********************************************************
+.btn
+  @extend .btn
+  text-transform: uppercase
+  font-size: 12px
+
+.btn-round
+  @extend .btn
+  border-radius: 25px
+
+// Defaut Inverse Button
+.btn-default-inverse
+  background: transparent
+  color: $brand-default
+  border-color: $brand-default
+
+.btn-default-inverse:hover
+  background: $brand-default
+  color: $gray
+
+// Primary Inverse Button
+.btn-primary-inverse
+  background: transparent
+  color: $brand-primary
+  border-color: $brand-primary
+
+.btn-primary-inverse:hover
+  background: $brand-primary
+  color: white
+
+// Success Inverse Button
+.btn-success-inverse
+  background: transparent
+  color: $brand-success
+  border-color: $brand-success
+
+.btn-success-inverse:hover
+  background: $brand-success
+  color: white
+
+// info Inverse Button
+.btn-info-inverse
+  background: transparent
+  color: $brand-info
+  border-color: $brand-info
+
+.btn-info-inverse:hover
+  background: $brand-info
+  color: white
+
+// warning Inverse Button
+.btn-warning-inverse
+  background: transparent
+  color: $brand-warning
+  border-color: $brand-warning
+
+.btn-warning-inverse:hover
+  background: $brand-warning
+  color: white
+
+// danger Inverse Button
+.btn-danger-inverse
+  background: transparent
+  color: $brand-danger
+  border-color: $brand-danger
+
+.btn-danger-inverse:hover
+  background: $brand-danger
+  color: white
+
+
+// BACKGROUND COLORS
+// ********************************************************
+.bg-default
+  background: white
+
+.bg-primary
+  background: $brand-primary
+
+.bg-success
+  background: $brand-success
+
+.bg-info
+  background: $brand-info
+
+.bg-warning
+  background: $brand-warning
+
+.bg-danger
+  background: $brand-danger
+
+// LOGO
+img.logo
+  height: 45px
+
+// TOPOGRAPHY
+h1, h2, h3, h4, h5, h6
+  color: #333333
+
+// NAVBAR
+.colorize-brand
+  @extend .navbar-brand !optional
+  font-size: 25px
+  position: relative
+  color: white
+
+.navbar-button
+  padding-top: 20px
+  padding-right: 20px
